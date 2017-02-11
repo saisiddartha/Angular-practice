@@ -1,0 +1,22 @@
+<div class="content">
+<div ng-controller = "CustomerController">
+ <button  ng-click="order = 'name'"> order by name </button>
+ <button  ng-click="order = 'shirt'"> order by shirt </button>
+ <input type ="text"  class="search" ng-model ="search" placeholder="seach for customer" />
+  <ul>
+   <li ng-repeat="customer in customers | orderBy: order | filter: search" ng-show="customer.available">
+     <img ng-src= "{{customer.thumb}}" style="margin:15px 5px 0px 5px; float:left; width:40px; height:40px;"  ng-show="customer.thumb"/>
+    <h3> {{customer.name}} - {{customer.rate | currency}}</h3>
+    <div class="remove" ng-click="removeCustomer(customer)">X</div>
+    <span class="shirt" style ="background:{{customer.shirt}}"> {{customer.shirt}}shirt</span>
+   </li>
+  </ul>
+  <form ng-submit="addCustomer()">
+    <input type ="text" placeholder="name" ng-model="newcustomer.name"/>
+    <input type ="text" placeholder="shirt" ng-model="newcustomer.shirt"/>
+    <input type ="text" placeholder="rate" ng-model="newcustomer.rate"/>
+    <input type ="submit" value="add new customer ">
+  </form>
+</div>
+
+</div>

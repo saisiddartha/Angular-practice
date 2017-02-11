@@ -1,0 +1,41 @@
+[
+  {
+    "name":"siddu",
+    "shirt":"red",
+    "rate":30,
+    "available":true,
+    "thumb":"content/img/siddu.jpg"
+
+  },
+  {
+    "name":"vamsi",
+    "shirt":"blue",
+    "rate":80,
+    "available":true,
+    "thumb":"content/img/vamsi.jpg"
+  },
+  {
+    "name":"raj",
+    "shirt":"green",
+    "rate":70,
+    "available":true,
+    "thumb":"content/img/nag.jpg"
+
+  },
+  {
+    "name":"venky",
+    "shirt":"yellow",
+    "rate":90,
+    "available":true,
+    "thumb":"content/img/venky.jpg"
+
+  },
+  {
+    "name":"ashok",
+    "shirt":"brown",
+    "rate":100,
+    "available":true,
+    "thumb":"content/img/ashok.jpg"
+
+  }
+]

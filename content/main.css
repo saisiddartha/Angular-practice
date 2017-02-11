@@ -1,0 +1,115 @@
+body{
+  margin: 0px;
+}
+#menu-bar{
+  padding: 10px;
+  background-color: red;
+}
+#menu-bar h1 {
+  display: inline-block;
+  font-size: 24px;
+}
+#menu-bar ul{
+  float: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 6px 0;
+}
+
+#menu-bar li{
+  float: right;
+  margin-left: 20px;
+}
+
+#menu-bar a{
+  color: #fff
+}
+
+.shirt{
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.content{
+  margin:40px;
+  background: #F5DEB3;
+}
+.content ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+.content li{
+  padding: 0px;
+  border:2px solid blue;
+  margin: 10px;
+  border-radius: 10px;
+}
+.search{
+  padding: 15px;
+  border:2px solid blue;
+  margin: 10px 500px;
+  border-radius: 10px;
+}
+.content button:nth-child(1){
+  float: left;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin: 30px 60px;
+}
+.content button:nth-child(2){
+  float: right;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-top:30px;
+  margin-right: 60px;
+}
+.content button:hover{
+  background-color:#66a3ff;
+}
+
+.content li span{
+  float: right;
+}
+.content li h3{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 22px;
+
+}
+.content input{
+  width: 88%;
+  padding: 10px 5%;
+  border-radius: 10px;
+  border: 2px solid green;
+  margin: 10px  10px 0;
+}
+
+.content input[type="submit"]:last-child{
+  width: 250px;
+  display: block;
+  margin: 15px auto;
+}
+
+.remove{
+  float: right;
+  padding: 2px;
+  background: #fff;
+  width: 18px;
+  text-align: center;
+  border-radius: 20px;
+  color: crimson;
+  cursor: pointer;
+  margin: 23px 11px 0px 12px;
+}
+main{
+  background: #eee;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
